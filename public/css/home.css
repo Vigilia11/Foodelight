@@ -1,0 +1,14 @@
+.button-container{
+    transform: translateY(100%);
+    transition-duration: 0.3s;
+    
+}
+
+.order{
+    transform: translateY(100%);
+    transition-duration: 0.3s;
+}
+  
+.dish:hover .order{
+    transform: translateY(0);
+}
